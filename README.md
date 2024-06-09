@@ -1,0 +1,2 @@
+# JavaScript
+Everything about JS
