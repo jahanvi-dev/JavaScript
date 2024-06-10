@@ -10,4 +10,9 @@ Everything about JS
   - Prompt
   - Confirm
 5) Saving username via prompt.
-6) Constant
+6) Constant.
+7) Data Types in JavaScript.
+8) typeof();
+8) Primitive types in JavaScript.
+9) Non-primitive/Object types in JavaScript.
+10) Conversion in JavaScript.
