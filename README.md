@@ -5,7 +5,7 @@ Everything about JS
 1) ✅ Variable declarations.
 2) ✅ Initializayion of variables.
 3) ✅ Console.log();
-4) ✅ Dialog Boxes in JavaScript.
+4) ✅ Dialog Boxes in JavaScript :
   - Alert
   - Prompt
   - Confirm
@@ -24,3 +24,54 @@ Everything about JS
 16) ✅ If - else statements
 17) ✅ Else - Statements
 18) ✅ Switch statements
+19) ✅ Loops in JS :
+  - For loop
+  - For of loop
+  - For in loop
+  - while loop
+  - do - while loop
+20) ✅ Method in JS :
+  - for each method
+  - map 
+21) ✅ Try & Catch 
+22) ✅ Arrays in JS :
+  - length
+  - two - dimensional array
+  - Push & Pop
+  - Unshift & Shift
+  - indexOf
+  - includes
+  - concat
+  - reverse
+  - slice
+  - splice
+  - sort
+  - array refernces 
+  - nested arrays
+  - loops with array
+  - loops with nested array
+
+23) String Methods :
+  - chartAt
+  - conact
+  - method chaining
+  - indexOf
+  - toUpperCase, toLowerCase
+  - trim
+  - includes
+  - repeat
+  - replace
+  - slice method
+  - split
+
+24) Math Methods :
+ - Math.floor()
+ - Math.random()
+ - Math.abs()
+ - Math.ceil()
+ - Math.max()
+ - Math.min()
+ - Math.pow()
+ - Math.round()
+ - Math.sqrt()
+
