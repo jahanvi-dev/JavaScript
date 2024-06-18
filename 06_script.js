@@ -1,6 +1,6 @@
 // Welcome to JavaScript Notes :
 
-// In this file, we will be studying about loops in JavaScript.
+// In this file, we will be studying what are loops in JavaScript.
 
 // Loops :
 // Allows us to execute a block of code repeatedly based on the condition.
