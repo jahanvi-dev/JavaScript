@@ -7,12 +7,21 @@
 // To check data type of variable in JavaScript use typeof();
 
 
-// Primitive Data Type --
+// 👉 Types of console in JavaScript --
+console.log('Output from console.log');
+// console.debug('Output from console.debug');
+console.error('Output from console.error');
+console.info('Output from console.info');
+console.warn('Output from console.warn');
+
+
+
+// 👉 Primitive Data Type --
 // 1) String :
 // Represents sequence of characters, 
 // Followed by " double quotes" or 'single quotes'
 // Data type of string is (string)
-
+console.log('');
 let string = "Hey, I'm a string.";
 console.log(string);
 console.log(`Data type of string is : ${typeof(string)}.`);
@@ -87,7 +96,7 @@ console.log(symbol3 === symbol4);  //false
 
 
 console.log('');
-// Non-Primitive/Object Data type --
+// 👉 Non-Primitive/Object Data type --
 // 1) Array :
 // Represents a list of elements, you can add as many elements you want of any data type.
 // Syntax to remember [], elements are separated by ,
@@ -133,5 +142,12 @@ console.log(timeRightNow);
 console.log(`Data type of date is :${typeof(timeRightNow)}.`);
 
 
-
+console.log('');
+// 👉 Some keywords of JS --
+// 1) async = indicates asynchronous functions.
+// 2) await = used to wait for the result of async function.
+// 3) break = cancel multiway branches & loops.
+// 4) class  = defines clas
+// 5) catch = intercept errors
+// 6) google these, the list is quite large.
 
