@@ -13,10 +13,33 @@ html, body{
 }
 
 h2{
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 2vw;
     padding: 0.5vw 0 0 1vw;
 }
 
 p{
     padding: 0.5vw 0 0 1vw;
+}
+
+h4{
+    padding: 0.5vw 0 0 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+    
+}
+
+button{
+    height: 6vh;
+    width: 10vw;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 1.2vw;
+}
+
+h1{
+    font-weight: 400;
+    margin-top: 1vw;
+    padding-left: 1vw;
+
 }
