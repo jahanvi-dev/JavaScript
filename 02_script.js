@@ -20,7 +20,7 @@ console.warn('Output from console.warn');
 // 1) String :
 // Represents sequence of characters, 
 // Followed by " double quotes" or 'single quotes'
-// Data type of string is (string)
+// Data type of string is = (string)
 console.log('');
 let string = "Hey, I'm a string.";
 console.log(string);
@@ -30,7 +30,7 @@ console.log('');
 // 2) Number :
 // Represents both integer and floating point numbers
 // They stand alone. No need for quotes.
-// Data type of number is (number)
+// Data type of number is = (number)
 
 
 let integer = 56;
@@ -44,7 +44,7 @@ console.log(`Data type of floating number is : ${typeof(floating)}.`)
 console.log('');
 // 3) Boolean :
 // Boolean data type has two value in it either true or false.
-// Data type of boolean is boolean 
+// Data type of boolean is = boolean 
 
 let female = true;
 console.log(female);
@@ -62,7 +62,7 @@ console.log(`Data type of null is : ${typeof(pluto)}`);
 
 // 5) Undefined :
 // Variable which has been declared but not initialized.
-// Data type of undefined is undefined.
+// Data type of undefined is = undefined.
 // Undefined is not an error, but not- defined is.
 
 console.log('');
@@ -75,7 +75,7 @@ console.log('');
 // 6) BigInt :
 // Represents integers with arbitrary precision.
 // Identify it by (n) at the end of number.
-// Data type of bigInt is bigInt.
+// Data type of bigInt is = bigInt.
 
 let bigInt = 85674552n;
 console.log(bigInt);
@@ -83,7 +83,7 @@ console.log(`Data type of bigInt is: ${typeof(bigInt)}`);
 
 console.log('');
 // 7) Symbol :
-// Every symbol call is guranteed to return a unique Symbol/identifiers.
+// Every symbol call is guranteed to return a unique & immutable Symbol/identifiers.
 // Doesn't matter if their data type is same or not.
 let symbol1 = ('Same');
 let symbol2 = ('Same');
@@ -98,9 +98,10 @@ console.log(symbol3 === symbol4);  //false
 console.log('');
 // 👉 Non-Primitive/Object Data type --
 // 1) Array :
-// Represents a list of elements, you can add as many elements you want of any data type.
+// Arrays are nothing but lists, meaning it doesn't only contain one but several value.
 // Syntax to remember [], elements are separated by ,
-// Data type of array is object.
+// Arrays have index-based structure.
+// Data type of array is = object.
 let sameDataType = [1,2,3,4,5];
 console.log(sameDataType);
 console.log(`Data type of array is : ${typeof(sameDataType)}.`);
@@ -111,8 +112,9 @@ console.log(differentDataType);
 console.log('');
 // 2) Object :
 // Collection of key-value pairs.
-// Syntax to remeber {}, also separated by ,
-// Data type of object is object.
+// Syntax to remeber {}, also   ` separated by ,
+// In object, variables are called properties & functions are called methods.
+// Data type of object is = object.
 let object = {
     name: "Jahanvi",
     age: 21,
@@ -126,7 +128,7 @@ console.log(`Data type of object is : ${typeof(object)}.`);
 console.log('');
 // 3) Functions :
 // A block of code designed to perform a particular task. 
-// Data type of function is function.
+// Data type of function is = function.
 let firstFunction = () => {
     return "I am a function."
 };
