@@ -3,6 +3,7 @@
 // In this file, we will be studying Conditional Statements :
 
 // If Statement -
+// Perform a certain action, only when a certain condition is met.
 let userLoggedIn = false;
 if ( userLoggedIn === true){
     console.log('Succesfully logged in.');      // no output, user isn't logged in
@@ -70,3 +71,24 @@ switch (day){
     default:
         console.log('Something went wrong.')
 }
+
+
+console.log('');
+// praticing some normal questions, for syntax
+// check if the user if logged in
+// access the button.
+let loginButton = document.getElementById('userLogin');
+let user = false;
+loginButton.addEventListener('click', function(){
+    if(user === true){
+        console.log('User is logged in.');
+        loginButton.textContent = "Welcome";
+        loginButton.style.backgroundColor = "green";
+    } else {
+        console.log('User is not logged in.');
+        loginButton.textContent = " Error";
+        loginButton.style.backgroundColor = "red";
+    }
+
+});
+
