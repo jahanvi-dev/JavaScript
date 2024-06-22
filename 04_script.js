@@ -105,6 +105,14 @@ console.log(!false);       // true
 
 
 
+console.log('');
+// 👉 Boolean operators working with Non-Boolean operators
+console.log('Non - Boolean operators');
+// 1) value of empty string = true
+// 2) value of non-empty string = false
+// 3) value of 0 = true
+// 4) null, nan, undefined = true
+// true = 1 in JS.
 
 
 
