@@ -2,6 +2,17 @@
 
 // In this file we will be discussing arrays  in detail.
 
+// Arrays :
+// - arrays are not actually array it is OBJECT
+// let array = [1, 2, 3];
+// how JS looks at it:
+// array = {
+//  0:1,
+//  1:2,  
+//  2:3
+// }
+
+
 // Simple Array Method :
 // Push - Pop - Unshift - Shift
 // Changes are made in original array.
