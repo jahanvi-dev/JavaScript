@@ -93,3 +93,46 @@ let tableOf3 = ones.map((ce, index,array) => {
 });
 
 console.log(tableOf3);
+
+
+console.log('');
+// 8) Filter on array :
+let number2 = [1, 2, 3, 4, 5, 6, 7, 8, 45, 24];
+let even = number2.filter((el) => {
+    return el % 2 != 0;
+});
+console.log(even);
+
+
+
+
+console.log('');
+// Break Keyword in JS
+let k = 2;
+while ( k <= 20){
+    if(k == 10){
+    break;}
+
+   console.log(k);
+    k = k + 2;
+}
+
+
+
+console.log('');
+console.log('Practice Ques');
+// Practice Questions :
+//1) counting 0 - 10
+for(let i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+console.log('');
+// 2) Table of 19
+let tableOf9 = 9;
+while ( tableOf9 <= 90){
+    console.log(tableOf9);
+    tableOf9 = tableOf9 + 9;
+}
+
+
