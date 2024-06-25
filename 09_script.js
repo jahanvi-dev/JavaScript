@@ -2,7 +2,7 @@
 
 // In this file we will talking about String & Math Methods in JavaScript.
 
-// String Methods :
+// 👉 String Methods :
 // 1) chartAt 
 // tells us what letter is on that index
 let string = "JavaScript";
@@ -79,7 +79,7 @@ console.log(string3.split('', 6));
 
 
 console.log('');
-// Math methods :
+// 👉 Math methods :
 // 1) Math.floor() -
 // removes decimal
 const b = 5.5;
@@ -137,3 +137,9 @@ console.log(Math.round(4.6));
 console.log('');
 // 9) Math.sqrt() -
 console.log(Math.sqrt(49));
+
+
+// 👉 Escaping the characters with strings
+console.log('');
+// 1) for new line = \n
+console.log('Good morning, \nThis is to inform all the students that school will remain closed till 05-July-2024.\nThank you.');
